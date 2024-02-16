@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-15T18:50:05 IST" name="Default suite" finished-at="2024-02-15T18:50:25 IST" duration-ms="20140">
+    <groups>
+    </groups>
+    <test started-at="2024-02-15T18:50:05 IST" name="Default test" finished-at="2024-02-15T18:50:25 IST" duration-ms="20140">
+      <class name="api.test.UserTest2">
+        <test-method is-config="true" signature="before()[pri:0, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:05 IST" name="before" finished-at="2024-02-15T18:50:06 IST" duration-ms="938" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before -->
+        <test-method signature="createNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:07 IST" name="createNewUser" data-provider="alldata" finished-at="2024-02-15T18:50:11 IST" duration-ms="3787" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Naurto]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[naruto1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="createNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:11 IST" name="createNewUser" data-provider="alldata" finished-at="2024-02-15T18:50:13 IST" duration-ms="1963" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hinata]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hinata1@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="createNewUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:13 IST" name="createNewUser" data-provider="alldata" finished-at="2024-02-15T18:50:14 IST" duration-ms="1889" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Uno]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[uno@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUser -->
+        <test-method signature="getUser()[pri:2, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:15 IST" name="getUser" finished-at="2024-02-15T18:50:16 IST" depends-on-methods="api.test.UserTest2.createNewUser" duration-ms="1496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:16 IST" name="updateUser" data-provider="updateddata" finished-at="2024-02-15T18:50:18 IST" duration-ms="1721" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Shikamaru]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[shikamaru@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:18 IST" name="updateUser" data-provider="updateddata" finished-at="2024-02-15T18:50:20 IST" duration-ms="2140" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Itachi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[itachi@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="updateUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:3, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:20 IST" name="updateUser" data-provider="updateddata" finished-at="2024-02-15T18:50:23 IST" duration-ms="2915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Mimosa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mimosa@yahoo.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[female]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+        <test-method signature="delUser()[pri:4, instance:api.test.UserTest2@33d512c1]" started-at="2024-02-15T18:50:23 IST" name="delUser" finished-at="2024-02-15T18:50:25 IST" duration-ms="1699" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [200] but found [204]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [200] but found [204]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:1419)
+at org.testng.Assert.assertEquals(Assert.java:1383)
+at org.testng.Assert.assertEquals(Assert.java:1429)
+at api.test.UserTest2.delUser(UserTest2.java:65)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- delUser -->
+      </class> <!-- api.test.UserTest2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
